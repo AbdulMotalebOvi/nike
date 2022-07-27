@@ -1,0 +1,134 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter&family=Poppins:wght@300;400;800&display=swap');
+
+/* utilities */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-size: 72px;
+}
+
+h1,
+h2,
+h3 {
+    color: #363958;
+}
+
+p {
+    color: #3E3E3E;
+}
+
+.span-clr {
+    color: #FA804c;
+
+}
+
+.bg1 {
+    background-color: #FFF9F4;
+}
+
+.imgs {
+    width: 100px;
+    height: 100px;
+}
+
+.filled {
+    color: gold;
+}
+
+.img-bg {
+    background-color: rgb(175 175 175 / 15%);
+}
+
+/* ------
+nav styles Custom 
+-----*/
+.navbar-collapse {
+    flex-grow: 0;
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+    color: #707070;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+
+.navbar-nav {
+    margin-bottom: 4px;
+
+}
+
+
+/* -------
+nav custom end
+ --------*/
+
+
+/* custom css */
+.carousel-control-next,
+.carousel-control-prev {
+    position: absolute;
+    top: 50%;
+    bottom: 0;
+    z-index: 1;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: red;
+
+}
+
+.badge {
+    display: inline-block;
+    font-size: 30px;
+    width: 100px;
+    height: 100px;
+    background-color: #FA804c;
+    color: #fff;
+    text-align: center;
+    line-height: 2.5;
+}
+
+
+
+.badge h2 {
+    position: relative;
+    top: 16px;
+    left: -12px;
+    color: #fff;
+}
+
+.casual-shoes,
+.formal-shoes,
+.beniefits,
+.google,
+footer {
+    margin-top: 150px;
+}
+
+.bene-img {
+    width: 80px;
+    height: 80px;
+    padding-left: 5px;
+}
+
+/* media queries */
+@media only screen and (max-width:576px) {
+    iframe {
+        width: 100%;
+    }
+}
