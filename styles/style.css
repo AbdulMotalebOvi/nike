@@ -2,11 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter&family=Poppins:wght@300;400;800&display=swap');
 
 /* utilities */
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
+
 
 li {
     list-style: none;
