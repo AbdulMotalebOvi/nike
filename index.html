@@ -27,13 +27,13 @@
                         aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="collapse navbar-collapse flex-grow-0" id="navbarNavAltMarkup">
                         <div class="navbar-nav">
                             <a class="nav-link" href="#carouselExampleControls">Home</a>
                             <a class="nav-link" href="#product">Product</a>
                             <a class="nav-link" href="#services">Services</a>
                             <a class="nav-link" href="#order">Order</a>
-                            <a class="nav-link" href="#subscribe">Subscribe</a>
+                            <a class="nav-link" href="#footer">Subscribe</a>
                         </div>
                     </div>
             </nav>
@@ -49,7 +49,7 @@
                                 <img src="images/Group 33092.png" class="d-block w-100" alt="...">
                             </div>
                             <div class="col-md-7 d-flex align-items-center ps-5">
-                                <div>
+                                <div class="pt-3">
                                     <h1><span class="span-clr fw-bold ">Nike React</span> <br> <span>Infinity Run
                                             2</span></h1>
                                     <p>Lorem Ipsum is simply dummy text of the printing
@@ -68,7 +68,7 @@
                                 <img src="images/Group 33092.png" class="d-block w-100" alt="...">
                             </div>
                             <div class="col-md-7 ps-5 d-flex align-items-center">
-                                <div>
+                                <div class="pt-3">
                                     <h1><span class="span-clr fw-bold ">Nike React</span> <br> <span>Infinity Run
                                             2</span></h1>
                                     <p>Lorem Ipsum is simply dummy text of the printing
@@ -81,13 +81,13 @@
                             </div>
                         </div>
                     </div>
-                    <div class="carousel-item ">
+                    <div class="carousel-item">
                         <div class="row">
                             <div class="col-md-5">
                                 <img src="images/Group 33092.png" class="d-block w-100" alt="...">
                             </div>
-                            <div class="col-md-7 ps-5 d-flex align-items-center">
-                                <div>
+                            <div class="col-md-7 ps-5 d-flex align-items-center ">
+                                <div class="pt-3">
                                     <h1><span class="span-clr fw-bold ">Nike React</span> <br> <span>Infinity Run
                                             2</span></h1>
                                     <p>Lorem Ipsum is simply dummy text of the printing
@@ -123,19 +123,15 @@
         <section class="casual-shoes">
             <h2 class="text-uppercase fw-bold ">Casual Showes</h2>
             <!-- shoes card start -->
-            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-5 py-1">
-                <div class="col">
+            <div class="row g-md-4">
+                <div class="col-lg-4 col-md-6">
                     <div class="card w-100 h-100 border-0 shadow-sm
                      p-3">
                         <div class="img-bg p-2 rounded-3">
                             <span class="position-absolute top-0 start-0 translate-left badge rounded-pill">
-
                                 <h2>-50%</h2>
-
                             </span>
                             </button>
-
-
                             <img src="images/1.png" class="card-img-top" alt="...">
                         </div>
 
@@ -152,7 +148,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col-lg-4 col-md-6">
                     <div class="card w-100 h-100  border-0 shadow-sm p-3">
                         <div class="img-bg p-2 rounded-3">
                             <span class="position-absolute top-0 start-0 translate-left badge rounded-pill">
@@ -176,7 +172,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col-lg-4 col-md-6">
                     <div class="card w-100 h-100 border-0 shadow-sm p-3">
                         <div class="img-bg p-2 rounded-3">
                             <span class="position-absolute top-0 start-0 translate-left badge rounded-pill">
@@ -206,8 +202,8 @@
         <!-- black shoes start -->
         <section id="product" class="formal-shoes ">
             <h2 class="text-uppercase fw-bold ">Formal Showes</h2>
-            <div class="row g-5">
-                <div class="col-lg-4 col-md-6 col-12">
+            <div class="row g-md-4">
+                <div class="col-lg-4 col-md-6">
                     <div class="p-3 shadow border-0 ">
                         <img class="img-fluid" src="images/4.png" alt="">
                         <div class="shoes-info ">
@@ -290,7 +286,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 ps-2">
+                    <div class="col-md-6 ">
                         <img class="img-fluid" src="images/shopping.png" alt="">
                     </div>
                 </div>
@@ -366,7 +362,6 @@
                                         Buy Now</a>
                                 </div>
                             </div>
-
                         </div>
                     </div>
                 </div>
@@ -421,7 +416,47 @@
     <!-- footer start -->
     <footer class="bg-dark text-white">
         <!-- Footer area start -->
+        <section id="footer">
+            <div class="container pt-5">
+                <div class="row ">
+                    <div class="col-md-4">
+                        <div class="footer_title">
+                            <h4 class="span-clr ">About</h4>
+                            <p class="text-white mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit.Nobis
+                                illum obcaecati quo necessitatibus sint quod!</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="footer_title">
+                            <h4 class="span-clr ">NewsLetter</h4>
 
+                            <form action="#" class=" mt-4">
+                                <div class="form-group">
+                                    <input type="text" class="form-control mb-2 text-center"
+                                        placeholder="Enter email address">
+                                    <input type="submit" value="Subscribe"
+                                        class="form-control submit px-3 bg-danger border-0">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <h4 class="span-clr ms-4 pt-2 pt-lg-0">Info</h4>
+                        <div class="mt-4 mt-lg-0">
+                            <ul>
+                                <li><a href="#"></i></a><span>Feni, Barahipur 8, Bangladesh</span></li>
+                                <li><a href="#"></i></a><span>+123 456 789</span></li>
+                                <li><a href="#"></i></a><span>ovi123456@gmail.com</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <p class="text-white text-center py-5">
+                    Copyright ©2025 All rights reserved | This template is made for BD.
+                </p>
+            </div>
+            </div>
+        </section>
         <!-- Footer area end -
     </footer>
     <!-- link js -->
